@@ -18,3 +18,6 @@ function digitToWords(digit) {
     console.log((digitToWords(5)));
     console.log((digitToWords(0)));
     console.log((digitToWords(9)));
+    // frontend  - class , react , angular , view . 
+    // html , css(Bootstrap , tailwind )  ,  javascript.
+    // backend - node.js , django , springboot , fastapi , php .
