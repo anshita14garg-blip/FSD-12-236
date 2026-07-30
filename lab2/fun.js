@@ -10,7 +10,8 @@ const f3 = () => {
 
 function main(){
   console.log("main");
-    f1();
+  setTimeout(f1,0);
+   setTimeout(f1, 1000);    // 0s baad run hoga f1 , phele main , f2 , f3 , end thn woh hoga.
     f2();
     f3();
     console.log("end");
