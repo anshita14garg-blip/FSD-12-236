@@ -7,6 +7,7 @@ FS Module directly communicate with Operating system rather than Browser the com
  - Stream = readStream() , Writestream().
 
  All functions are Promise so , it must be called with await keyword.
+ ## 
 
 ### appendFile()
  Adds new data to the end of an existing file without deleting its previous content. If the file doesn't exist, it creates one.
@@ -16,3 +17,12 @@ Writes data to a file, replacing the existing content. If the file doesn't exist
  
  ### readFile()
  Reads the contents of a file asynchronously and returns the data. It does not modify the file.
+## CRUD OPERATIONS
+CRUD = Create , Retrieve , Update , Delete.
+
+### Assume we are making a cart related project 
+1. user can add any product (id , name , price , qty) into cart
+2. user can see all the items of cart.
+3. user can remove items from cart.
+4. user can also update quantity of product.
+5. all the items should be stored after terimination of project.
